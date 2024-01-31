@@ -1,0 +1,46 @@
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+input, button, li {
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+button {
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    transition: background-color 500ms;
+
+    &:hover {
+      background-color:dodgerblue;
+    }
+}
+
+li > button{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+li {
+    width: 410px;
+    margin-bottom: 15px;
+    background-color: lightskyblue;
+    list-style: none;
+    margin-left: 0;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 17px -12px rgba(135,206,250,1);
+    -moz-box-shadow: 10px 10px 17px -12px rgba(135,206,250,1);
+    box-shadow: 10px 10px 17px -12px rgba(135,206,250,1);
+}
+
+li p {
+    margin: 5px 0;
+}
